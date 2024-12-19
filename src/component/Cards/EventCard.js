@@ -10,6 +10,7 @@ const EventCard = ({userName,desc}) => {
             <h1>{userName}</h1>
             <p>{desc}</p>
             <p>Test</p>
+            <p>Test</p>
         </div>
     )
 }
