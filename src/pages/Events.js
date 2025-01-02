@@ -37,6 +37,13 @@ const Events = () => {
             location: "San Francisco, CA",
             description: "This is a description of the event.",
             image: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/m/e/-original-imahfpwvvyctag2h.jpeg?q=70"
+        },
+        {
+            name: "Event 6",
+            date: "2024-01-06",
+            location: "San Francisco, CA",
+            description: "This is a description of the event.",
+            image: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/m/e/-original-imahfpwvvyctag2h.jpeg?q=70"
         }
     ]
     return (

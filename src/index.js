@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import RegisterPage from './pages/RegisterPage';
 import AboutUs from './pages/AboutUs';
 import Events from './pages/Events';
+import DynamicEvent from './pages/DynamicEvent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
           <Route path="register" element={<RegisterPage />} />
           <Route path="about-us" element={<AboutUs />} />
           <Route path="events" element={<Events />} />
+          <Route path="dynamic-events" element={<DynamicEvent />} />
        
       </Routes>
     </BrowserRouter>
